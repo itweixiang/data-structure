@@ -4,6 +4,7 @@ package com.itweixiang.dataStructure.linkedList;
  * 单向链表
  */
 public class SingleLinkedListDemo {
+
     public static void main(String[] args) {
         LinkedList linkedList = LinkedList.newInstance();
         Node deleteNode = Node.newInstance(4);
