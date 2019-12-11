@@ -1,4 +1,4 @@
-package com.itweixiang.dataStructure.linkedList;
+package com.itweixiang.dataStructure.linear.linkedList;
 
 /**
  * 单向链表
