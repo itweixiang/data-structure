@@ -1,5 +1,7 @@
 package com.itweixiang.dataStructure.linear.queue;
 
+import org.junit.Test;
+
 /**
  * @Author lwx
  * @Date 2019-12-11
@@ -13,6 +15,7 @@ package com.itweixiang.dataStructure.linear.queue;
  * 4、当队列空时 rear == front
  * 5、有效的数据范围为[front,rear],有效个数为 (rear + maxSize - front) % maxSize
  */
+
 public class CircularArrayQueue {
     /*
      * 最大容量
@@ -30,6 +33,7 @@ public class CircularArrayQueue {
      * 队列尾
      */
     private int rear;
+
 
     public CircularArrayQueue(int maxSize) {
         this.maxSize = maxSize;
@@ -111,27 +115,7 @@ public class CircularArrayQueue {
         return queueData[front];
     }
 
-    public static void main(String[] args) {
-        CircularArrayQueue arrayQueue = new CircularArrayQueue(10);
-        arrayQueue.push(1);
-        arrayQueue.push(2);
-        arrayQueue.push(3);
-        arrayQueue.push(4);
-        arrayQueue.push(5);
-        arrayQueue.push(5);
-        arrayQueue.push(5);
-        arrayQueue.push(5);
-        arrayQueue.push(5);
-        arrayQueue.push(5);
-        arrayQueue.push(5);
-        arrayQueue.push(5);
-        arrayQueue.printAll();
-        System.out.println(arrayQueue.pop());
-        arrayQueue.printAll();
-        arrayQueue.push(1);
-        arrayQueue.printAll();
-        System.out.println(arrayQueue.peek());
-    }
+
 
 
 }

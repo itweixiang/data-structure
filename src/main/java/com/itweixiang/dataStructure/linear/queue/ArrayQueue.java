@@ -116,16 +116,5 @@ public class ArrayQueue {
         front = -1;
     }
 
-    public static void main(String[] args) {
-        ArrayQueue arrayQueue = new ArrayQueue(10);
-        arrayQueue.push(1);
-        arrayQueue.push(2);
-        arrayQueue.push(3);
-        arrayQueue.push(4);
-        arrayQueue.push(5);
-        arrayQueue.printAll();
-        System.out.println(arrayQueue.pop());
-        arrayQueue.printAll();
-        System.out.println(arrayQueue.peek());
-    }
+
 }
