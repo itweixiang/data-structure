@@ -13,42 +13,7 @@ package com.itweixiang.dataStructure.linear.array;
  * 3、将二维数组的数据存入稀疏数组
  */
 public class SparseArrayDemo {
-    public static void main(String[] args) {
-        //原始二维数组
-        int[][] qrArray = new int[9][9];
-        qrArray[1][3] = 1;
-        qrArray[2][2] = 2;
-        qrArray[3][1] = 1;
-        qrArray[4][1] = 1;
 
-
-        System.out.println("======================遍历二维数组=====================");
-        for (int[] ints : qrArray) {
-            for (int anInt : ints) {
-                System.out.print("[" + anInt + "] ");
-            }
-            System.out.println();
-        }
-
-        System.out.println("======================遍历稀疏数组=====================");
-        int[][] sparseArray = createSparseArray(qrArray);
-        for (int i = 0; i < sparseArray.length; i++) {
-            int[] tempArray = sparseArray[i];
-            for (int j = 0; j < tempArray.length; j++) {
-                System.out.print("[" + tempArray[j] + "] ");
-            }
-            System.out.println();
-        }
-
-        System.out.println("======================遍历二维数组=====================");
-        int[][] convertArray = convertQrArrayBySparseArray(sparseArray);
-        for (int[] ints : convertArray) {
-            for (int anInt : ints) {
-                System.out.print("[" + anInt + "] ");
-            }
-            System.out.println();
-        }
-    }
 
     /**
      * 根据二维数组创建稀疏数组
@@ -56,7 +21,7 @@ public class SparseArrayDemo {
      * @param qrArray
      * @return
      */
-    public static int[][] createSparseArray(int[][] qrArray) {
+    public int[][] createSparseArray(int[][] qrArray) {
         //获取行列有效数据量
         int row = qrArray.length;//获取行
         int col = 0;
@@ -101,7 +66,7 @@ public class SparseArrayDemo {
      * @param sparseArray
      * @return
      */
-    public static int[][] convertQrArrayBySparseArray(int[][] sparseArray) {
+    public int[][] convertQrArrayBySparseArray(int[][] sparseArray) {
         int row = sparseArray[0][0];
         int col = sparseArray[0][1];
         int[][] qrArray = new int[row][col];
