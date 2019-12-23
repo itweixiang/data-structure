@@ -1,4 +1,4 @@
-package com.itweixiang.dataStructure.linear.queue;
+package com.itweixiang.dataStructure.linear.array;
 
 import com.itweixiang.dataStructure.linear.array.SparseArrayDemo;
 import org.junit.Test;
