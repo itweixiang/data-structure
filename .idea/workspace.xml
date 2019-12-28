@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55eda5df-47e5-4ae9-8723-3659f47ceb6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itweixiang/dataStructure/linear/stack/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itweixiang/dataStructure/linear/stack/LinkedListStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/itweixiang/dataStructure/linear/stack/ArrayStackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/itweixiang/dataStructure/linear/stack/LinkedListStackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itweixiang/dataStructure/linear/stack/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/itweixiang/dataStructure/linear/stack/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,48 +41,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itweixiang/dataStructure/linear/stack/ArrayStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itweixiang/dataStructure/linear/linkedList/DoubleLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="453">
+              <caret line="81" column="1" selection-start-line="11" selection-start-column="7" selection-end-line="81" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itweixiang/dataStructure/linear/stack/LinkedListStack.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itweixiang/dataStructure/linear/stack/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="57">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
               <folding>
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#2299#2300#0" expanded="true" />
+                <element signature="e#2807#2808#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/itweixiang/dataStructure/linear/stack/LinkedListStackTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/itweixiang/dataStructure/linear/stack/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/itweixiang/dataStructure/linear/stack/ArrayStackTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="190">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -144,6 +125,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/itweixiang/dataStructure/linear/stack/ArrayStack.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/itweixiang/dataStructure/linear/stack/LinkedListStackTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/itweixiang/dataStructure/linear/stack/LinkedListStack.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itweixiang/dataStructure/linear/stack/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itweixiang/dataStructure/linear/stack/Calculator.java" />
       </list>
     </option>
   </component>
@@ -192,6 +175,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,15 +253,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577452991225" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577502610918" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -301,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListStackTest.testPushAndPop">
+  <component name="RunManager" selected="JUnit.CalculatorTest.testCal">
     <configuration name="ArrayStackTest.testPushAndPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
@@ -313,6 +296,22 @@
       <option name="PACKAGE_NAME" value="com.itweixiang.dataStructure.linear.stack" />
       <option name="MAIN_CLASS_NAME" value="com.itweixiang.dataStructure.linear.stack.ArrayStackTest" />
       <option name="METHOD_NAME" value="testPushAndPop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testCal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itweixiang.dataStructure.linear.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itweixiang.dataStructure.linear.stack" />
+      <option name="MAIN_CLASS_NAME" value="com.itweixiang.dataStructure.linear.stack.CalculatorTest" />
+      <option name="METHOD_NAME" value="testCal" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -350,22 +349,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleLinkedListTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itweixiang.dataStructure.linear.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itweixiang.dataStructure.linear.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="com.itweixiang.dataStructure.linear.linkedList.DoubleLinkedListTest" />
-      <option name="METHOD_NAME" value="testDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LinkedListStackTest.testPushAndPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
@@ -383,19 +366,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DoubleLinkedListTest.testDelete" />
       <item itemvalue="JUnit.CircularLinkedListTest.testAdd" />
       <item itemvalue="JUnit.CircularLinkedListTest.testJosephRing" />
       <item itemvalue="JUnit.ArrayStackTest.testPushAndPop" />
       <item itemvalue="JUnit.LinkedListStackTest.testPushAndPop" />
+      <item itemvalue="JUnit.CalculatorTest.testCal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.testCal" />
         <item itemvalue="JUnit.LinkedListStackTest.testPushAndPop" />
         <item itemvalue="JUnit.ArrayStackTest.testPushAndPop" />
         <item itemvalue="JUnit.CircularLinkedListTest.testJosephRing" />
         <item itemvalue="JUnit.CircularLinkedListTest.testAdd" />
-        <item itemvalue="JUnit.DoubleLinkedListTest.testDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -430,6 +413,7 @@
       <workItem from="1577150514487" duration="5113000" />
       <workItem from="1577275817915" duration="3258000" />
       <workItem from="1577406909428" duration="4170000" />
+      <workItem from="1577495603105" duration="6996000" />
     </task>
     <task id="LOCAL-00001" summary="链表">
       <created>1575890797291</created>
@@ -463,45 +447,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayStackTest_testPushAndPop - 2019.12.27 at 20h 45m 06s.xml">
-      <configuration name="ArrayStackTest.testPushAndPop" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testCal - 2019.12.28 at 10h 44m 01s.xml">
+      <configuration name="CalculatorTest.testCal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayStackTest_testPushAndPop - 2019.12.27 at 20h 45m 48s.xml">
-      <configuration name="ArrayStackTest.testPushAndPop" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testCal - 2019.12.28 at 10h 56m 59s.xml">
+      <configuration name="CalculatorTest.testCal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayStackTest_testPushAndPop - 2019.12.27 at 20h 48m 15s.xml">
-      <configuration name="ArrayStackTest.testPushAndPop" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testCal - 2019.12.28 at 10h 57m 43s.xml">
+      <configuration name="CalculatorTest.testCal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayStackTest_testPushAndPop - 2019.12.27 at 20h 50m 44s.xml">
-      <configuration name="ArrayStackTest.testPushAndPop" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testCal - 2019.12.28 at 10h 59m 39s.xml">
+      <configuration name="CalculatorTest.testCal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListStackTest_testPushAndPop - 2019.12.27 at 21h 10m 19s.xml">
-      <configuration name="LinkedListStackTest.testPushAndPop" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testCal - 2019.12.28 at 11h 01m 39s.xml">
+      <configuration name="CalculatorTest.testCal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListStackTest_testPushAndPop - 2019.12.27 at 21h 12m 09s.xml">
-      <configuration name="LinkedListStackTest.testPushAndPop" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testCal - 2019.12.28 at 11h 04m 20s.xml">
+      <configuration name="CalculatorTest.testCal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListStackTest_testPushAndPop - 2019.12.27 at 21h 16m 32s.xml">
-      <configuration name="LinkedListStackTest.testPushAndPop" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testCal - 2019.12.28 at 11h 06m 24s.xml">
+      <configuration name="CalculatorTest.testCal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListStackTest_testPushAndPop - 2019.12.27 at 21h 16m 44s.xml">
-      <configuration name="LinkedListStackTest.testPushAndPop" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testCal - 2019.12.28 at 11h 06m 47s.xml">
+      <configuration name="CalculatorTest.testCal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListStackTest_testPushAndPop - 2019.12.27 at 21h 18m 10s.xml">
-      <configuration name="LinkedListStackTest.testPushAndPop" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testCal - 2019.12.28 at 11h 07m 07s.xml">
+      <configuration name="CalculatorTest.testCal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListStackTest_testPushAndPop - 2019.12.27 at 21h 19m 22s.xml">
-      <configuration name="LinkedListStackTest.testPushAndPop" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testCal - 2019.12.28 at 11h 09m 53s.xml">
+      <configuration name="CalculatorTest.testCal" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61882000" />
+    <option name="totallyTimeSpent" value="68904000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25053304" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3063864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -510,17 +494,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.19414316" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4866785" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.25399646" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5097691" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.31236443" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3275488" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3268206" />
       <window_info anchor="bottom" id="Problems" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -694,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itweixiang/dataStructure/linear/stack/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/itweixiang/dataStructure/linear/stack/ArrayStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -722,6 +699,31 @@
           <folding>
             <element signature="e#704#705#0" expanded="true" />
             <element signature="e#744#745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itweixiang/dataStructure/linear/stack/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="81" column="1" selection-start-line="11" selection-start-column="7" selection-end-line="81" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itweixiang/dataStructure/linear/stack/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itweixiang/dataStructure/linear/stack/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#2299#2300#0" expanded="true" />
+            <element signature="e#2807#2808#0" expanded="true" />
           </folding>
         </state>
       </provider>
