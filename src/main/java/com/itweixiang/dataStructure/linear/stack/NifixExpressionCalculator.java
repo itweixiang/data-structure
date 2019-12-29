@@ -11,7 +11,7 @@ package com.itweixiang.dataStructure.linear.stack;
  * 5、当表达式遍历完成后，从数栈和符栈中pop出对应的数和符号进行运算
  * 6、最后数栈中只有一个结果值
  */
-public class Calculator {
+public class NifixExpressionCalculator {
 
     /**
      * 数栈
@@ -77,7 +77,7 @@ public class Calculator {
     }
 
 
-    public Calculator(String expression) {
+    public NifixExpressionCalculator(String expression) {
         this.expression = expression;
     }
 

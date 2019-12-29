@@ -79,4 +79,17 @@ public class ArrayStack {
         }
     }
 
+    /**
+     * 查看栈顶元素，但不弹出
+     *
+     * @return
+     */
+    public int peek() {
+        if (!isEmpty()) {
+            return stack[top];
+        } else {
+            return -1;
+        }
+    }
+
 }
