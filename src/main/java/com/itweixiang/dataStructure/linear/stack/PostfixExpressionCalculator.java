@@ -41,7 +41,7 @@ public class PostfixExpressionCalculator {
         for (String string : strings) {
             if (string.matches("\\d+")) {
                 list.add(string);//遇到数值时，压入数栈
-            } else if (stack.isEmpty() || stack.peek().equals("(") || getPriority(stack.peek().charAt(0)) < getPriority(string.charAt(0))) {
+            } else if (stack.isEmpty() || stack.peek().equals("(") ) {
                 //若符栈为空，或者栈顶元素为“（”,直接入符栈
                 //若符号的优先级比栈顶符号的优先级高，直接入符栈
                 stack.push(string);
@@ -52,8 +52,9 @@ public class PostfixExpressionCalculator {
                 }
                 stack.pop();//弹出（
             } else {
-                list.add(stack.pop());
-                while (!stack.isEmpty() && getPriority(stack.peek().charAt(0)) < getPriority(string.charAt(0))) {
+                //否则，将栈顶的运算符弹出，并压入数栈,，并再次与符栈的栈顶元素进行比较
+//                list.add(stack.pop());
+                while (!stack.isEmpty() && getPriority(stack.peek().charAt(0)) > getPriority(string.charAt(0))) {
                     list.add(stack.pop());
                 }
                 stack.push(string);
@@ -62,6 +63,7 @@ public class PostfixExpressionCalculator {
         while (!stack.isEmpty()) {
             list.add(stack.pop());
         }
+        System.out.println(list);
         return list;
     }
 
