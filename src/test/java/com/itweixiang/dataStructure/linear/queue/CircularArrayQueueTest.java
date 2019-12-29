@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class CircularArrayQueueTest {
     @Test
-    public void test1(){
+    public void test(){
         CircularArrayQueue arrayQueue = new CircularArrayQueue(10);
         arrayQueue.push(1);
         arrayQueue.push(2);

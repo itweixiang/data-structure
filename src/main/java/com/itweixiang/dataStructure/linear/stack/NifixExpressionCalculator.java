@@ -111,21 +111,21 @@ public class NifixExpressionCalculator {
     /**
      * 具体计算
      *
-     * @param d1
-     * @param d2
+     * @param num1
+     * @param num2
      * @param oper 操作符
      * @return
      */
-    public int cal(int d1, int d2, int oper) {
+    public int cal(int num1, int num2, int oper) {
         switch (oper) {
             case '+':
-                return d1 + d2;
+                return num1 + num2;
             case '-':
-                return d2 - d1;
+                return num2 - num1;
             case '*':
-                return d1 * d2;
+                return num1 * num2;
             case '/':
-                return d2 / d1;
+                return num2 / num1;
             default:
                 return 0;
         }
